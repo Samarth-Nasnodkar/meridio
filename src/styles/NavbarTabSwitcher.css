@@ -1,0 +1,26 @@
+.navbar-tab-switcher {
+  margin-top: 10px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  background-color: #27282f;
+  border-radius: 6px;
+  border: 2px solid #2e3034;
+  height: 40px;
+}
+
+.navbar-tab-switcher-tab {
+  height: 40%;
+  margin: 4px 5px 0px 5px;
+  padding: 7px 15px 8px 15px;
+  font-size: 14px;
+  color: #8e8d92;
+  transition: all 0.2s ease-in-out;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.navbar-tab-switcher-tab.active {
+  background-color: #34353e;
+  color: #f3f5f6;
+}

@@ -1,0 +1,42 @@
+.friend-tile {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend-profile {
+  display: flex;
+}
+
+.friend-profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.friend-text-header {
+  margin: 0;
+  color: #e9e9ea;
+  font-size: 14px;
+}
+
+.friend-text-count {
+  margin: 0;
+  margin-top: 3px;
+  color: #8b8d91;
+  font-size: 13px;
+}
+
+.friend-notifs {
+  background-color: #27282f;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.friend-notifs-text {
+  margin: 0;
+  margin: 5px 10px;
+  color: #d1d1d5;
+}

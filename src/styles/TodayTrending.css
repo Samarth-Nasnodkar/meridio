@@ -1,0 +1,43 @@
+.today-trending {
+  width: 85%;
+  color: #e9e9ea;
+  border: 2px solid #222327;
+  border-radius: 5px;
+  background-color: #1e1f23;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 30px;
+}
+
+.trending-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.trending-tiles {
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.trending-title-dropdown {
+  height: 28px;
+  color: #e8eaeb;
+  border-radius: 28px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.trending-footer {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #487bbe;
+  font-size: 13px;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  cursor: pointer;
+}

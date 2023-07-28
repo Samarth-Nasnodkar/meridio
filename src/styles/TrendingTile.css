@@ -1,0 +1,31 @@
+.trending-tile {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tile-text-header {
+  margin: 0;
+  color: #e9e9ea;
+  font-size: 14px;
+}
+
+.tile-text-count {
+  margin: 0;
+  margin-top: 3px;
+  color: #8b8d91;
+  font-size: 13px;
+}
+
+.tile-frequency {
+  background-color: #27282f;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.tile-frequency-text {
+  margin: 0;
+  margin: 5px 10px;
+  color: #d1d1d5;
+}

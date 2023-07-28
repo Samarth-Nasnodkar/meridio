@@ -1,0 +1,97 @@
+.navbar-wrapper {
+  padding-bottom: 5px;
+  border-bottom: 3px solid #2a2c32;
+  background-color: #1e1f23;
+}
+
+.navbar {
+  height: 60px;
+}
+
+.navbar-body {
+  display: flex;
+  margin-left: 20px;
+  color: #fff;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.navbar-left-section {
+  display: flex;
+}
+
+
+.navbar-right-section {
+  color: #fafafb;
+  font-size: 18px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar h2 {
+  font-size: 18px;
+}
+
+.navbar-header {
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.navbar-header-icon {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.navbar-button {
+  margin-right: 15px;
+}
+
+.navbar-button-icon {
+  position: relative;
+  top: 20%;
+  left: 20%;
+  padding: 12px;
+  background-color: #27282f;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.navbar-action-buttons {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.navbar-profile-name {
+  font-size: 16px;
+}
+
+.navbar-profile-image-wrapper {
+  height: 40px;
+  width: 40px;
+  padding-left: 5px;
+  padding-right: 30px;
+}
+
+.navbar-profile-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+}
+
+.navbar-profile-image-dropdown {
+  color: #1e1f23;
+  font-size: 8px;
+  background-color: #f8f8fa;
+  border-radius: 20px;
+  padding: 3px;
+  position: relative;
+  bottom: 65%;
+  left: 65%;
+}
